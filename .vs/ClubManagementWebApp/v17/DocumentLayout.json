@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikki\\source\\repos\\ClubManagementWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E70D42-A1FD-4269-9D62-ACF5CA3E71A1}|ClubManagementWebApp.csproj|c:\\users\\nikki\\source\\repos\\clubmanagementwebapp\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7E70D42-A1FD-4269-9D62-ACF5CA3E71A1}|ClubManagementWebApp.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E70D42-A1FD-4269-9D62-ACF5CA3E71A1}|ClubManagementWebApp.csproj|c:\\users\\nikki\\source\\repos\\clubmanagementwebapp\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E70D42-A1FD-4269-9D62-ACF5CA3E71A1}|ClubManagementWebApp.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E70D42-A1FD-4269-9D62-ACF5CA3E71A1}|ClubManagementWebApp.csproj|c:\\users\\nikki\\source\\repos\\clubmanagementwebapp\\member.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7E70D42-A1FD-4269-9D62-ACF5CA3E71A1}|ClubManagementWebApp.csproj|solutionrelative:member.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Member.aspx",
+              "DocumentMoniker": "C:\\Users\\nikki\\source\\repos\\ClubManagementWebApp\\Member.aspx",
+              "RelativeDocumentMoniker": "Member.aspx",
+              "ToolTip": "C:\\Users\\nikki\\source\\repos\\ClubManagementWebApp\\Member.aspx",
+              "RelativeToolTip": "Member.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-14T01:56:46.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nikki\\source\\repos\\ClubManagementWebApp\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "C:\\Users\\nikki\\source\\repos\\ClubManagementWebApp\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T01:19:59.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\nikki\\source\\repos\\ClubManagementWebApp\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\nikki\\source\\repos\\ClubManagementWebApp\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-14T00:41:44.495Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
