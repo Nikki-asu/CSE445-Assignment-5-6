@@ -108,6 +108,8 @@
             Welcome to our Club Management Web Application! See our TryIt features below
         </div>
 
+
+
         <!-- TRYIT FEATURES TITLE -->
         <div class="section-title">
             TryIt Features
@@ -118,6 +120,23 @@
             <div class="feature-header">Hashing DLL</div>
 
             <div class="feature-content">
+
+
+                                <!---instructions-->
+                        <div style="
+                            background-color: #f3f3f3;
+                            
+                            padding: 10px 15px;
+                            margin-bottom: 20px;
+                            border-radius: 4px;
+                            font-size: 14px;
+                        ">
+                            <strong>Instructions:</strong><br />
+                            1. Enter text to be hashed<br />
+                            2. Click <strong>Hash</strong> <br />
+                            3. Your Hashed Result will be displayed in the output box<br />
+                            This demonstrates the DLL library hash feature.
+                        </div>
 
              <div style="margin-bottom: 20px;">
                     <label>Enter text to be hashed:</label><br />
@@ -132,6 +151,48 @@
                 <asp:Button ID="btnHash" runat="server" Text="Hash" CssClass="btn" OnClick="btnHash_Click" />
             </div>
         </div>
+        
+        <!-- Cookie FEATURE BOX -->
+        <div class="feature-box">
+            <div class="feature-header">Cookie Test</div>
+
+            <div class="feature-content">
+
+                <!---instructions-->
+                        <div style="
+                            background-color: #f3f3f3;
+                            
+                            padding: 10px 15px;
+                            margin-bottom: 20px;
+                            border-radius: 4px;
+                            font-size: 14px;
+                        ">
+                            <strong>Instructions:</strong><br />
+                            1. Enter a username in the box below.<br />
+                            2. Click <strong>Set Cookie</strong> to save it in your browser.<br />
+                            3. Close and reopen the page (or restart the project).<br />
+                            4. Click <strong>Read Cookie</strong> to load the saved value.<br />
+                            This demonstrates cookie storage and retrieval.
+                        </div>
+
+
+            <div style="margin-bottom: 20px;">
+                    <label>Enter username to store in cookie:</label><br />
+                    <asp:TextBox ID="txtCookieInput" runat="server" CssClass="textbox" Width="629px"></asp:TextBox>
+            </div>
+
+                <div style="margin-bottom: 20px;">
+                    <label>Cookie Value:</label><br />
+                    <asp:TextBox ID="txtCookieOutput" runat="server" CssClass="textbox" Width="627px"></asp:TextBox>
+                </div>
+
+                <asp:Button ID="btnSetCookie" runat="server" Text="Set Cookie" CssClass="btn" OnClick="btnSetCookie_Click" />
+                &nbsp;
+                <asp:Button ID="btnReadCookie" runat="server" Text="Read Cookie" CssClass="btn" OnClick="btnReadCookie_Click" />
+            </div>
+        </div>
+        
+        
         <!--To Do-->
         <div class="feature-box">
             <div class="feature-header">TO DO add more try it features</div>
@@ -156,10 +217,7 @@
             </div>
         </div>
 
-                <!-- TRYIT FEATURES TITLE -->
-        <div class="section-title">
-            Service Directory
-        </div>
+
     
 
 

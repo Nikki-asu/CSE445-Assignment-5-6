@@ -42,7 +42,28 @@ namespace ClubManagementWebApp
         {
             Response.Redirect("Default.aspx");
         }
-        
+
+        //making button to save cookie
+        protected void btnSetCookie_Click(object sender, EventArgs e)
+        {
+            HttpCookie cookie = new HttpCookie("UserCookie");
+            cookie.Value = txtCookieInput.Text;
+            cookie.Expires = DateTime.Now.AddMinutes(10);
+            Response.Cookies.Add(cookie);
+        }
+        //making button to display cookie
+        protected void btnReadCookie_Click(object sender, EventArgs e)
+        {
+            HttpCookie cookie = Request.Cookies["UserCookie"];
+            if (cookie != null)
+            {
+                txtCookieOutput.Text = cookie.Value;
+            }
+            else
+            {
+                txtCookieOutput.Text = "Cookie not found.";
+            }
+        }
 
 
     }
