@@ -1,0 +1,16 @@
+# Ignore build outputs
+bin/
+obj/
+.vs/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignore publish profiles
+*.publishsettings
+
+# Ignore NuGet folder
+packages/
